@@ -1,0 +1,14 @@
+{
+  "extends": ["prettier"],
+  "rules": {
+    "no-underscore-dangle": "off",
+    "prettier/prettier": ["error"]
+  },
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "env": {
+    "es6": true
+  }
+}
